@@ -80,7 +80,14 @@ export default function Home() {
       <main className="bg-white text-black font-sans scroll-smooth">
         <header className="bg-black text-white p-4 flex justify-between items-center sticky top-0 z-50 font-montserrat">
           <div className="text-2xl font-bold pl-4 tracking-tight font-italianno">
-            Samiul Islam
+            {/* Samiul Islam */}
+            <Image
+              src="/samiul-islam-logo-6.png"
+              alt="Samiul Avatar"
+              width={100}
+              height={100}
+              className="inline-block"
+            />
           </div>
           <nav className="flex space-x-6 pr-6">
             <a
@@ -167,6 +174,9 @@ export default function Home() {
                 height={240}
                 className="rounded-full border-4 border-white shadow-lg transition-transform duration-300 group-hover:scale-105"
               />
+              <h1 className="text-2xl font-bold font-sans mb-2 tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 pl-12 pt-4">
+                SAMIUL ISLAM
+              </h1>
             </div>
           </div>
           <div className="md:w-1/2 pr-8">
